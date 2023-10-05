@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.head-top img,.navbar-brand img{
+    height: 20px;
+}
+.head-top-right{
+    display: flex;
+}
+.head-top-right p{
+    margin: 0px 0px 0px 0px;
+    padding: 3px;
+    font-size: 12px;
+}
+
+.card-content{
+    position: relative;
+    top: -175px;
+}
+div#menu {
+    display: none;
+    position: absolute;
+    top: 79px;
+    left: 110px;
+    z-index: 9;
+}
+
+    
+.btn:hover{
+    background-color: darkslategray;
+}
+
+
+
+
+
+
